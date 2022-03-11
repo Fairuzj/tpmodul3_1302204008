@@ -10,9 +10,17 @@ namespace tpmodul3_1302204008
     {
         static void Main(string[] args)
         {
+//          Soal 1
+//            KodePos pos = new KodePos();
+//           pos.getKodePos();
 
-            KodePos pos = new KodePos();
-            pos.getKodePos();
+//          Soal 2
+            DoorMachine Pintu = new DoorMachine();
+            Pintu.KunciPintu();
+            Pintu.CekPintu();
+//          Jik ingin membuka kunci
+//          Pintu.BukaPintu();
+//          Pintu.CekPintu();
         }
     }
 }
