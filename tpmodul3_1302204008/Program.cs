@@ -10,6 +10,9 @@ namespace tpmodul3_1302204008
     {
         static void Main(string[] args)
         {
+
+            KodePos pos = new KodePos();
+            pos.getKodePos();
         }
     }
 }
